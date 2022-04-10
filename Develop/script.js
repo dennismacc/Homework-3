@@ -6,16 +6,18 @@ var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var symbols = "!@#$%^&*";  
 
 function generatePassword() {
- 
-  var passwordLenghtUser = prompt("How many characters would you like to have in your password? Choose a number between 8 and 128.")
-    if (passwordLenghtUser < 8) {
+ // Prompts user to select how many characters they would like in their password and tells them if they're choice does not meet criteria
+  var passwordLengthUser = prompt("How many characters would you like to have in your password? Choose a number between 8 and 128.")
+    if (passwordLengthUser < 8) {
       alert("Password must contain at least 8 characters")
       return '';
     } 
-    if (passwordLenghtUser > 128) {
+    if (passwordLengthUser > 128) {
       alert("Password cannot contain more than 128 characters")
       return '';
     }
+
+  var password
 
 
 }
