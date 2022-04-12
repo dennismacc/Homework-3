@@ -1,1 +1,10 @@
-# Homework-3
+# Homework-3: Password Generator
+Build a password generator that will allow employees to randomly generate a password that includes several character types to increase password security for sensitive data.
+
+##
+The purpose of this password generator is to allow the user to select from provided password character criteria to create a secure password that meets the selected criterias. Upon opening the webpage, the user will see a text box with a button that says 'Generate Password'. Upon clicking the button, a window will pop up asking the user to select a password length of between 8 and 128 characters. If they choose a number outside that criteria, they will receive and error message and be returned to the original page. If they choose a number within the criteria, they will be directed to the next window prompt which asks them to include lowercase characters. The user will then view 3 other window prompts asking them about including uppercase letters, numbers, and symbols in their password. After choosing their password criteria, a random password that includes their chosen characteristics will populate in the text box on the webpage. 
+The password generator was built using HTML, CSS, and Javascript. HTML provided the site structure, CSS added formatting and layout, and Javascript was used to make the webpage interactive. Using Javascript allowed for the user to access features such as clicking the button to generate a password, and viewing window prompts that allowed them to select the criteria they wished to include in their password. 
+One of the challenges that was encountered in this project was getting the generatePassword function to create a password. At first I was receiving an 'undefined' value in the text box after going through the password prompts, and realized that the function was missing a return statement at the end to return a password value to function.  
+
+##
+The project can be accessed at https://dennismacc.github.io/Homework-3/Develop/ and the source code can be viewed at my GitHub page (dennismacc) under the Homework-3 repository. 
