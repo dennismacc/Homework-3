@@ -13,11 +13,11 @@ function generatePassword() {
   var passwordLength = prompt("How many characters would you like to have in your password? Choose a number between 8 and 128.")
     if (passwordLength < 8) {
       alert("Password must contain at least 8 characters")
-      return '';
+      return "";
     } 
     if (passwordLength > 128) {
       alert("Password cannot contain more than 128 characters")
-      return '';
+      return "";
     }
 // Ask user if they would like to include lowercase letters
 // If user chooses yes, lowerCase values are added to passwordText
